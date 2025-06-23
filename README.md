@@ -2,11 +2,11 @@
 
 ## Descrizione
 
-GeoImage Analyzer è un tool forense completo sviluppato in Python per l'analisi approfondita di immagini digitali. Il software è progettato per investigatori digitali, esperti di sicurezza informatica e professionisti forensi che necessitano di estrarre e analizzare metadati nascosti dalle immagini.
+GeoImage-Analyzer è un tool forense completo sviluppato in Python per l'analisi approfondita di immagini digitali. Il software è progettato per investigatori digitali, esperti di sicurezza informatica e professionisti forensi che necessitano di estrarre e analizzare metadati nascosti dalle immagini.
 
 PER INSTALLARE LE DIPENDENZE AUTOMATICAMENTE ESEGUI " install.py "
 
-## Funzionalità Principali
+## Funzionalità principali
 
 ### 🔍 Analisi Metadati EXIF
 - Estrazione completa di tutti i metadati EXIF presenti nell'immagine
@@ -20,14 +20,14 @@ PER INSTALLARE LE DIPENDENZE AUTOMATICAMENTE ESEGUI " install.py "
 - Reverse geocoding per ottenere l'indirizzo fisico
 - Mappatura della posizione geografica dove è stata scattata la foto
 
-### 🖼️ Anteprima Immagine
+### 🖼️ Anteprima immagine
 - **Visualizzazione immediata**: Anteprima dell'immagine caricata con ridimensionamento automatico
 - **Informazioni di base**: Dimensioni, formato, dimensione file e data di modifica
 - **Selezione automatica**: La tab anteprima si apre automaticamente al caricamento dell'immagine
 - **Istruzioni integrate**: Guida passo-passo per l'utilizzo del tool
 - **Gestione errori**: Messaggi informativi in caso di problemi nel caricamento
 
-### 🗺️ Visualizzazione Mappa
+### 🗺️ Visualizzazione mappa
 - **Mappa interattiva integrata** nell'interfaccia (tramite tkintermapview)
 - **Visualizzazione automatica** delle coordinate GPS estratte
 - **Apertura in browser** con mappa dettagliata (tramite Folium)
@@ -40,7 +40,7 @@ PER INSTALLARE LE DIPENDENZE AUTOMATICAMENTE ESEGUI " install.py "
 - Informazioni dettagliate sul file (dimensione, formato, modalità colore)
 - Identificazione di possibili modifiche o manipolazioni
 
-### 📊 Reporting Completo
+### 📊 Reporting completo
 - Generazione di report dettagliati in formato JSON e TXT
 - Esportazione di tutti i dati per documentazione legale
 - Interfaccia grafica intuitiva con visualizzazione a schede
@@ -59,11 +59,11 @@ cd GeoImageAnalyzer
 python geo_image_analyzer.py
 ```
 
-**✨ Installazione Automatica delle Dipendenze**
+**✨ Installazione automatica delle dipendenze**
 
 Il tool ora installa automaticamente tutte le dipendenze necessarie al primo avvio! Non è più necessario eseguire manualmente `pip install -r requirements.txt`.
 
-### Funzionalità di Gestione Dipendenze:
+### Funzionalità di gestione dipendenze:
 - **Controllo automatico**: Verifica la presenza di tutte le dipendenze all'avvio
 - **Installazione automatica**: Installa automaticamente i pacchetti mancanti
 - **Aggiornamento intelligente**: Rileva e aggiorna le dipendenze obsolete
@@ -89,7 +89,7 @@ pip install -r requirements.txt
 
 ## 🚀 Utilizzo
 
-### Interfaccia Grafica
+### Interfaccia grafica
 1. **Avvia l'applicazione**: `python geo_image_analyzer.py`
    Al primo avvio, il tool controllerà e installerà automaticamente tutte le dipendenze necessarie.
 
@@ -111,15 +111,15 @@ pip install -r requirements.txt
    - **Analisi Forense**: Hash, timestamp e info dispositivo
    - **Report Completo**: Riepilogo di tutti i dati
 
-6. **Gestione Dipendenze**:
+6. **Gestione dipendenze**:
    - **Menu Strumenti > Stato Dipendenze**: Visualizza lo stato di tutte le librerie
    - **Menu Strumenti > Aggiorna Dipendenze**: Forza l'aggiornamento manuale
 
 7. Esporta i risultati in formato JSON o TXT
 
-### Procedura di Analisi Dettagliata
+### Procedura di analisi dettagliata
 
-1. **Selezione Immagine**
+1. **Selezione immagine**
    - Clicca su "Seleziona Immagine"
    - Scegli il file immagine da analizzare
    - Formati supportati: JPEG, PNG, TIFF, BMP, GIF
@@ -128,54 +128,54 @@ pip install -r requirements.txt
    - Clicca su "Analizza" per iniziare l'elaborazione
    - L'analisi viene eseguita automaticamente su tutti gli aspetti
 
-3. **Visualizzazione Risultati**
+3. **Visualizzazione risultati**
    - **Tab Metadati EXIF**: Tutti i metadati tecnici dell'immagine
    - **Tab Geolocalizzazione**: Coordinate GPS e indirizzo fisico
-   - **Tab Analisi Forense**: Hash, timestamp e informazioni file
+   - **Tab Analisi forense**: Hash, timestamp e informazioni file
    - **Tab Report Completo**: Riepilogo completo dell'analisi
 
 4. **Esportazione**
    - Esporta i risultati in formato JSON per elaborazioni successive
    - Salva il report in formato TXT per documentazione
 
-## Casi d'Uso Forensi
+## Casi d'uso forensi
 
-### Investigazioni Digitali
+### Investigazioni digitali
 - Verifica dell'autenticità di immagini in procedimenti legali
 - Tracciamento della provenienza di contenuti digitali
 - Identificazione di dispositivi utilizzati per acquisizioni
 
-### Sicurezza Informatica
+### Sicurezza informatica
 - Analisi di immagini sospette in incidenti di sicurezza
 - Verifica dell'integrità di prove digitali
 - Identificazione di metadati sensibili in leak di dati
 
-### Giornalismo Investigativo
+### Giornalismo investigativo
 - Verifica della provenienza di immagini ricevute
 - Identificazione di location e timestamp di eventi
 - Controllo dell'autenticità di materiale fotografico
 
-## Caratteristiche Tecniche
+## Caratteristiche tecniche
 
-### Formati Supportati
+### Formati supportati
 - **JPEG/JPG**: Supporto completo per metadati EXIF e GPS
 - **PNG**: Estrazione metadati disponibili
 - **TIFF**: Analisi completa di metadati tecnici
 - **BMP/GIF**: Informazioni base del file
 
-### Sicurezza e Privacy
+### Sicurezza e privacy
 - Tutte le analisi vengono eseguite localmente
 - Nessun upload di immagini su server esterni
 - Solo il reverse geocoding utilizza servizi online (OpenStreetMap)
 - Possibilità di utilizzo completamente offline (escluso reverse geocoding)
 
-### Accuratezza dei Dati
+### Accuratezza dei dati
 - Estrazione diretta dai metadati EXIF originali
 - Nessuna modifica o alterazione dei file analizzati
 - Calcolo preciso di hash crittografici per verifica integrità
 - Conversione accurata di coordinate GPS
 
-## File di Test
+## File di test
 
 ### 📁 test_image_with_gps.jpg
 
@@ -187,7 +187,7 @@ Il repository include un'immagine di test appositamente creata per dimostrare le
 - **Sicurezza**: Sicuro da condividere - contiene solo dati di test non reali
 - **Utilizzo**: Perfetto per familiarizzare con le funzionalità del tool
 
-**Nota Importante**: Tutti i metadati nell'immagine di test sono fittizi e creati appositamente per scopi dimostrativi. Non rappresentano informazioni reali o sensibili.
+**Nota Importante**: Tutti i metadati nell'immagine di TEST sono fittizi e creati appositamente per scopi dimostrativi. Non rappresentano informazioni reali o sensibili.
 
 ## Limitazioni
 
@@ -196,7 +196,7 @@ Il repository include un'immagine di test appositamente creata per dimostrare le
 - Alcuni formati proprietari potrebbero avere supporto limitato
 - I metadati possono essere rimossi o alterati da software di editing
 
-## Sviluppi Futuri
+## Sviluppi futuri
 
 - [ ] Supporto per video e file multimediali
 - [ ] Analisi di manipolazioni e alterazioni
@@ -208,7 +208,7 @@ Il repository include un'immagine di test appositamente creata per dimostrare le
 
 Per contribuire:
 
-1. **Autorizzazione Preventiva**: Contatta l'autore prima di apportare modifiche
+1. **Autorizzazione preventiva**: Contatta l'autore prima di apportare modifiche
 2. Fork del repository (solo dopo autorizzazione)
 3. Crea un branch per la tua feature
 4. Documenta dettagliatamente le modifiche nel changelog
