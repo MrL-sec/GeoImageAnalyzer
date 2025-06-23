@@ -1,0 +1,60 @@
+{
+  "application": {
+    "name": "GeoImage Analyzer",
+    "version": "1.0.0",
+    "author": "GeoImageAnalyzer",
+    "description": "Tool forense per analisi immagini e geolocalizzazione"
+  },
+  "ui": {
+    "theme": "dark",
+    "window_size": {
+      "width": 1200,
+      "height": 800
+    },
+    "colors": {
+      "background": "#2c3e50",
+      "foreground": "#ecf0f1",
+      "accent": "#3498db"
+    }
+  },
+  "analysis": {
+    "supported_formats": [
+      ".jpg", ".jpeg", ".png", ".tiff", ".tif", ".bmp", ".gif"
+    ],
+    "max_file_size_mb": 100,
+    "extract_thumbnails": true,
+    "calculate_hashes": {
+      "md5": true,
+      "sha1": true,
+      "sha256": true,
+      "sha512": false
+    }
+  },
+  "geolocation": {
+    "reverse_geocoding": {
+      "enabled": true,
+      "service": "openstreetmap",
+      "timeout_seconds": 10,
+      "user_agent": "GeoImageAnalyzer/1.0"
+    },
+    "coordinate_precision": 6
+  },
+  "export": {
+    "default_format": "json",
+    "include_raw_exif": true,
+    "include_file_hashes": true,
+    "include_system_info": true,
+    "timestamp_format": "ISO8601"
+  },
+  "security": {
+    "log_file_paths": false,
+    "anonymize_sensitive_data": false,
+    "require_confirmation_for_network": true
+  },
+  "advanced": {
+    "debug_mode": false,
+    "verbose_logging": false,
+    "backup_original_files": false,
+    "parallel_processing": false
+  }
+}

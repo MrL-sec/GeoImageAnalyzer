@@ -1,0 +1,64 @@
+GNU AFFERO GENERAL PUBLIC LICENSE
+Version 3, 19 November 2007
+
+Copyright (C) 2025 MrL-sec - GeoImage Analyzer
+
+=== CLAUSOLE SPECIFICHE PER GEOIMAGE ANALYZER ===
+
+1. USO COMMERCIALE VIETATO
+   Questo software NON può essere utilizzato per scopi commerciali senza
+   esplicita autorizzazione dell'autore, consenso valido per periti incaricati e forze dell'ordine.
+
+2. MODIFICHE AL CODICE SORGENTE
+   Qualsiasi modifica al codice sorgente deve essere:
+   - Approvata preventivamente dall'autore
+   - Condivisa pubblicamente sotto la stessa licenza
+   - Documentata con changelog dettagliato
+
+3. USO FORENSE E ACCADEMICO
+   È permesso l'uso per:
+   - Investigazioni forensi da parte di forze dell'ordine
+   - Ricerca accademica e educativa
+   - Analisi di sicurezza informatica non commerciale, periti incaricati.
+
+4. DISTRIBUZIONE
+   La ridistribuzione è permessa solo se:
+   - Include questa licenza completa
+   - Mantiene tutti i copyright notices
+   - Non modifica il codice senza autorizzazione
+
+=== LICENZA GNU AGPL v3 COMPLETA ===
+
+Questo programma è software libero: puoi ridistribuirlo e/o modificarlo
+sotto i termini della GNU Affero General Public License come pubblicata
+dalla Free Software Foundation, versione 3 della Licenza.
+
+Questo programma è distribuito nella speranza che sia utile,
+ma SENZA ALCUNA GARANZIA; senza nemmeno la garanzia implicita di
+COMMERCIABILITÀ o IDONEITÀ PER UN PARTICOLARE SCOPO. Vedi la
+GNU Affero General Public License per maggiori dettagli.
+
+
+=== CONTATTI ===
+
+Per richieste di autorizzazione commerciale o modifiche al codice:
+Autore: MrL-sec
+Progetto: GeoImage Analyzer - Tool Forense per Analisi Immagini
+Repository: https://github.com/MrL-sec/GeoImageAnalyzer
+
+=== DISCLAIMER ===
+
+Questo software è fornito "così com'è" senza garanzie di alcun tipo.
+L'autore non è responsabile per danni derivanti dall'uso del software.
+L'uso per attività illegali è severamente vietato.
+
+Il software è progettato esclusivamente per scopi forensi legittimi,
+ricerca accademica e analisi di sicurezza informatica.
+
+=== TERMINI AGGIUNTIVI ===
+
+- Qualsiasi uso del software implica l'accettazione di questi termini
+- Le violazioni di questa licenza comportano la revoca immediata dei diritti
+- Per controversie legali, il foro competente è quello di residenza dell'autore
+Data: 2025
+Versione Licenza: AGPL v3 + Clausole specifiche - GeoImage Analyzer -

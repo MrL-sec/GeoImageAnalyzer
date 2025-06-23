@@ -1,0 +1,23 @@
+# GeoImage Analyzer - Dipendenze
+# Tool forense per analisi immagini e geolocalizzazione
+
+# Elaborazione immagini e metadati EXIF
+Pillow>=10.0.0
+
+# Richieste HTTP per reverse geocoding
+requests>=2.31.0
+
+# Visualizzazione mappe
+folium>=0.14.0
+tkintermapview>=1.29
+
+# Interfaccia grafica (incluso in Python standard)
+# tkinter - già incluso
+
+# Librerie standard utilizzate:
+# - os
+# - json
+# - datetime
+# - hashlib
+# - platform
+# - subprocess
