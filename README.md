@@ -1,5 +1,7 @@
 # GeoImage Analyzer - Tool Forense per Analisi Immagini
-
+<p align="center">
+  <img src="screenshot_homepage.png" alt="Screenshot homepage" width="600"/>
+</p>
 ## Descrizione
 
 GeoImage-Analyzer è un tool forense completo sviluppato in Python per l'analisi approfondita di immagini digitali. Il software è progettato per investigatori digitali, esperti di sicurezza informatica e professionisti forensi che necessitano di estrarre e analizzare metadati nascosti dalle immagini.
